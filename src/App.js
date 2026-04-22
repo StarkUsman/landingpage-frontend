@@ -10,22 +10,24 @@ import Explore from "./components/Explore";
 import HeroSec from "./components/HeroSec";
 
 function App() {
-  
+
   return (
     <>
       <Header />
 
-      <HeroSec />
-      <MarqueeSection />
-      <Services />
-      <Explore />
-      <AboutUs/>
-      <CustomTech/> 
-      <FAQs/>
-      <ContactUs/>
-    
+      <div className="pt-16 md:pt-0">
+        <HeroSec />
+        <MarqueeSection />
+        <Services />
+        <Explore />
+        <AboutUs />
+        <CustomTech />
+        <FAQs />
+        <ContactUs />
 
-    <Footer />
+
+        <Footer />
+      </div>
 
     </>
   );
